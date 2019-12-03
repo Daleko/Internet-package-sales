@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 28, 2019, 9:56:08 PM
+    Author     : Dell
+*/
+
+.root {
+ -fx-font-size: 14px;
+    -fx-font-family: sans-serif;
+    -fx-background-color: #cccccc;
+}
+
+#close {
+    -fx-graphic:url('im.png');
+    -fx-background-color: transparent;
+    -fx-border-width: 0.0;
+}
+#close:hover{
+    -fx-graphic:url('img.png');
+    -fx-background-color:darkorange;
+}
+
+#icon{
+   -fx-graphic:url('icon.png');
+    -fx-background-color: transparent;
+    -fx-border-width: 0.0;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-border-color: darkorange;
+}
+
+
+.text-field{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0, 0, 0, 0;
+    -fx-border-color:darkorange;
+}
+
+#save, #clear{
+    -fx-border-color: darkorange;
+}
+
+.combo-box{
+    -fx-border-color: darkorange;
+}
+
+#topic {
+    fx-font-weight: bolder;
+    
+}
